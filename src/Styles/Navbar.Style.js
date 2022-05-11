@@ -57,7 +57,7 @@ export const Universal = styled.div`
   }
 `;
 
-export const Text = styled.text`
+export const Text = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
