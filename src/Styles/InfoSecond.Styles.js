@@ -8,6 +8,14 @@ export const MainWrapper = styled.div`
     align-content: center;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: 750px){ 
+        width: 98%;
+
+
+    }
+
+
     `
 
 export const InfoWrapper = styled.div`
@@ -19,6 +27,12 @@ export const InfoWrapper = styled.div`
     height: 90vh;
     width: 90vw;
 
+    @media(max-width: 750px){ 
+        width: 98%;
+
+
+    }
+
 `
 
 export const Heading = styled.h1`
@@ -28,6 +42,15 @@ export const Heading = styled.h1`
     align-contet: center;
     height: 10%;
     width: 90%;
+    @media(max-width: 750px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        font-weight: bold;
+        height: 10%
+        width: 100%;
+    }
 
 `
 
@@ -39,6 +62,10 @@ export const TextWithPicWrapper = styled.div`
     height: 70%; 
     width: 90%;
     // background: green;
+    @media(max-width: 750px){
+        display: flex;
+        flex-direction: column;
+    }
 
 `
 
@@ -47,6 +74,12 @@ export const PicArea = styled.div`
     height: 80%;
     width: 30%;
     // background: yellow;
+    
+    @media(max-width: 750px){
+        display: flex;
+        height: 30%;
+        width: 40%;
+    }
 
 `
 
@@ -59,6 +92,13 @@ export const TextArea = styled.div`
     height: 80%;
     width: 80%;
     // background: yellow;
+    @media(max-width: 750px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
 
 `
 
@@ -67,6 +107,11 @@ export const ButtonArea = styled.div`
     justify-content: center;
     height: 10%;
     width: 70%;
+
+    @media(max-width:750px){
+        display: flex;
+        align-items: center;
+    }
 
 `
 
@@ -90,6 +135,18 @@ export const Button = styled.button`
         font-size: 1.8em;
     }
 
+    @media(max-width:750px){
+        display: flex;
+        height: 60%;
+        width: 50%;
+        font-size: 1em;
+
+        :hover {
+            width: 60%;
+            background: black;
+            font-size: 1.4em;
+    }
+
 `
 
 export const UniDiv = styled.div`
@@ -98,6 +155,15 @@ export const UniDiv = styled.div`
     justify-content: center;
     height: ${(props) => props.height};
     width: ${(props) => props.width};
+
+    @media(max-width: 750px){
+        display: flex;
+        width: 100%;
+        font-size: 0.8em;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 `
 
@@ -113,6 +179,12 @@ export const TextForIcons = styled.div`
     font-size: 1.2em;
     height: 50%;
     width: 95%;
+    @media(max-width: 750px){
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 0.8em;
+    }
 
 `
 
@@ -120,4 +192,5 @@ export const RedSpan = styled.span`
     color: red;
     margin-left: 1%;
     margin-right: 1%;
+
 `

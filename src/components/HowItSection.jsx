@@ -40,7 +40,7 @@ const HowItWorks = () => {
           <NumbersWithText>
             <Numbers>2</Numbers>
             <TextArea>
-              <h2>Book An Inspection</h2>
+              <h2>Technician Aassigned</h2>
               <p>Our tech will contact the seller for inspection availabilty</p>
             </TextArea>
           </NumbersWithText>
@@ -49,7 +49,7 @@ const HowItWorks = () => {
           <NumbersWithText>
             <Numbers>3</Numbers>
             <TextArea>
-              <h2>Book An Inspection</h2>
+              <h2>Inspection Schedualed</h2>
               <p>
                 Tech will begin moving towards sellers locations as inspection
                 schedualed
@@ -70,7 +70,7 @@ const HowItWorks = () => {
           <NumbersWithText>
             <Numbers>4</Numbers>
             <TextArea>
-              <h2>Book An Inspection</h2>
+              <h2>Recive PPI Results</h2>
               <p>
                 You will get your user friendly pre-purchase inspection results
               </p>

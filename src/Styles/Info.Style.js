@@ -99,6 +99,11 @@ export const ButtonArea = styled.div`
     height: 10%;
     width: 70%;
 
+    @media(max-width: 750px) {
+       align-items: center;
+    
+    }
+
 `
 
 export const Button = styled.button`
@@ -125,6 +130,10 @@ export const Button = styled.button`
         height: 80%;
         font-size: 1.2em;
 
+        :hover {
+            background: black;
+            font-size: 1.5em;
+        }
 
     }
 

@@ -6,6 +6,7 @@ export const MainWrapper = styled.div`
     align-items: center;
     height: 100vh;
     width: 98vw;
+  
 
 
 `
@@ -18,6 +19,12 @@ export const BookingWrapper = styled.div`
     height: 90%;
     width: 80%;
 
+    @media(max-width: 750px) {
+        display: flex;
+        height: 95%;
+        width: 100%;
+    }
+
 
 `
 
@@ -27,6 +34,11 @@ export const InfoArea = styled.div`
     align-items: center;
     height: 30%;
     width: 80%;
+
+    @media(max-width: 750px) {
+        display: flex;
+        width: 100%;
+    }
 
 
 `
@@ -38,6 +50,13 @@ export const BookArea = styled.div`
     height: 70%;
     width: 80%;
 
+    @media(max-width: 750px) {
+        display: flex;
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+
 `
 
 export const PicWithText = styled.div`
@@ -47,6 +66,8 @@ export const PicWithText = styled.div`
     flex-direction: column;
     height: 80%;
     width: 30%;
+
+    
 
 `
 
@@ -63,6 +84,12 @@ export const BookingCard = styled.div`
       border: 2px solid black;
   }
 
+  @media(max-width: 750px) {
+    display: flex;
+    width: 100%;
+    font-size: 0.9em;
+}
+
   
 
 
@@ -76,12 +103,26 @@ export const Title = styled.div`
     font-weight: bold; 
     font-size: 1.2em;
 
+
+    @media(max-width: 750px) {
+        display: flex;
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    
+
 `
 export const Text = styled.div`
     display: flex;
     height: 50%;
     width: 80%;
     font-size: 0.8em;
+    @media(max-width: 750px) {
+        display: flex;
+        width: 100%;
+        font-size: 0.7em;
+    }
 
 `
 
@@ -90,6 +131,13 @@ export const PicArea = styled.div`
     justify-content: center;
     height: 30%;
     width: 90%;
+
+    @media(max-width: 750px) {
+        display: flex;
+        height: 20%;
+        width: 95%;
+    
+    }
 
 `
 
@@ -136,6 +184,16 @@ export const Button = styled.button`
 
     }
 
+    @media(max-width: 750px){
+        display: flex;
+        font-size: 1.3em
+        height: 60%;
+        width: 100%;
+
+    }
+
+
+
 `
 
 
@@ -148,5 +206,11 @@ export const Pricing = styled.div`
     font-weight: bold;
     height: 20%;
     width: 80%;
+
+    @media(max-width: 750px){
+        display: flex;
+        font-size: 1.3em
+
+    }
 
 `

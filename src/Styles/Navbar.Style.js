@@ -49,7 +49,7 @@ export const Universal = styled.div`
 
   @media (max-width: 750px) {
     display: flex;
-    font-size: 10px;
+    font-size: 1em;
     height: auto;
     width: 95vw;
     align-items: center;

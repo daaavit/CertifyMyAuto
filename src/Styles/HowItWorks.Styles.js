@@ -8,6 +8,9 @@ export const MainWrapper = styled.div`
     align-content: center;
     justify-content: center;
     align-items: center;
+    @media(max-width: 750px) {
+        display: flex;
+    }
     
     
     `
@@ -21,7 +24,13 @@ export const Section = styled.div`
     align-items: center;
     justify-content: space-evenly;
 
+    @media(max-width: 750px) {
+        display: flex;
+        width: 95%;
+    }
+
 `
+
 
 export const Heading = styled.h1`
     display: flex;
@@ -31,6 +40,12 @@ export const Heading = styled.h1`
     // background: green;
     font-size: 4em;
 
+    @media(max-width: 750px) {
+        display: flex;
+        font-size: 2em;
+        width: 90%;
+    }
+
     `
 export const UniDivWrapper = styled.div`
     display: flex;
@@ -38,6 +53,11 @@ export const UniDivWrapper = styled.div`
     height: 20%;
     width: 80%;
     background: ${(props) => props.background};
+
+    @media(max-width: 750px) {
+        display: flex;
+    }
+
 
 `
 
@@ -49,6 +69,15 @@ export const NumbersWithText = styled.div`
     width: 50%;
     margin: 3%;
     // background: red;
+
+    @media(max-width: 750px) {
+        display: flex;
+        height: 95%;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+    
 
 ` 
 export const ArrowBox = styled.div`
@@ -67,6 +96,15 @@ export const TextArea = styled.div`
     height: 100%;
     width: 70%;
 
+    @media(max-width: 750px) {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;
+    }
+    
+
 `
 
 export const Numbers = styled.div`
@@ -78,6 +116,11 @@ export const Numbers = styled.div`
     height: 90%;
     width: 30%;
     // background: green;
+    @media(max-width: 750px) {
+        display: flex;
+        font-size: 3em;
+    }
+
 
 `
 
@@ -86,6 +129,12 @@ export const ButtonArea = styled.div`
     justify-content: center;
     height: 80%;
     width: 50%;
+    @media(max-width: 750px) {
+        display: flex;
+        height: 60%;
+        width: 80%;
+    }
+
 
 `
 export const Button = styled.button`
@@ -106,6 +155,20 @@ export const Button = styled.button`
         width: 50%;
         background: black;
         cursor: pointer;
+
+        @media(max-width: 750px) {
+            display: flex;
+            height: 80%;
+            width: 100%;
+            font-size: 1.5em;
+        }
+    }
+
+    @media(max-width: 750px) {
+        display: flex;
+        height: 60%;
+        width: 100%;
+        font-size: 1.3em;
     }
 
 `

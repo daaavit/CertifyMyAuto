@@ -18,6 +18,11 @@ export const IconWithTextWrapper = styled.div`
     height: 90%;
     width: 90%;
 
+    @media(max-width: 750px){
+        display: flex;
+        width: 95%;
+    }
+
 `
 
 export const IconsArea = styled.div`
@@ -29,6 +34,7 @@ export const IconsArea = styled.div`
     height: 80%;
     width: 90%;
 
+ 
 
 `
 export const ContactArea = styled.div`
@@ -60,6 +66,12 @@ export const Title = styled.div`
     height: 30%;
     width: 90%;
 
+    @media(max-width: 750px){
+        display: flex;
+        width: 90%;
+        font-size: 0.8em;
+    }
+
 `
 
 export const IconArea = styled.div`
@@ -67,6 +79,14 @@ export const IconArea = styled.div`
     justify-content: center;
     height: 70%;
     width: 90%;
+
+    @media(max-width: 750px){
+        display: flex;
+        height: 40%;
+        width: 90%;
+    }
+    
+
 
 `
 
@@ -77,5 +97,6 @@ export const UniIcons = styled.div`
     height: 80%;
     width: 15%;
     cursor: alias;
+
 
 `
