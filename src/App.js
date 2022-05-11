@@ -9,10 +9,10 @@ function App() {
   return (
     <>
     <Home/>
-    {/* <InfoSecond />
+    <InfoSecond />
     <HowItWorks />
     <Book />
-    <Offer /> */}
+    <Offer />
     </>
   );
 }
