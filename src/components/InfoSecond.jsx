@@ -19,15 +19,15 @@ const InfoSecond = () => {
   return (
     <MainWrapper>
       <InfoWrapper>
-        <Heading>The Most Hated Company By Dishonest Sellers
-          {/* <Typewriter
+        <Heading>
+          <Typewriter
             onInit={(typewriter, ) => {
               typewriter
                 .typeString("The Most Hated Company By Dishonest Sellers")
                 .pauseFor(1000)
                 .start();
             }}
-          /> */}
+          />
         </Heading>
         <TextWithPicWrapper>
           <PicArea>
@@ -75,3 +75,6 @@ const InfoSecond = () => {
 };
 
 export default InfoSecond;
+
+
+
