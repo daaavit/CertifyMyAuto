@@ -62,7 +62,7 @@ export const TextArea = styled.div`
 
     @media(max-width: 750px) {
         display: flex;
-        font-size: 1em;
+        font-size: 0.8em;
         border-bottom: none;
     }
 
@@ -107,7 +107,7 @@ export const PicArea = styled.div`
 
     @media(max-width: 750px) {
         display: flex;
-        height: 40%;
+        height: 30%;
         width: 100%;
     }
 
