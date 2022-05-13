@@ -30,13 +30,18 @@ const Navbar = () => {
           <Text paddingRight="2%" borderRight="1px solid black">
             <Link
               style={{ textDecoration: "none", color: "black" }}
-              to="bookonline"
+              to="/bookonline"
             >
               Book Online
             </Link>
           </Text>
           <Text paddingRight="2%" borderRight="1px solid black">
-            Services
+          <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="/Services"
+            >
+              Services
+            </Link>
           </Text>
           <Text paddingRight="2%" borderRight="1px solid black">
             Recently Certified

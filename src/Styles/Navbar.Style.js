@@ -23,6 +23,7 @@ export const NavbarWrapper = styled.div`
     margin: 3%;
   }
 `;
+
 export const Universal = styled.div`
   display: ${(props) => props.Display};
   align-content: ${(props) => props.alignContent};

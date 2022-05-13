@@ -5,6 +5,7 @@ import HowItWorks from './components/HowItSection';
 import Book from './components/Book'
 import Offer from './components/Offer'
 import BookOnline from './Pages/BookOnline';
+import Services from './Pages/Services';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/how' element={<HowItWorks />} />
         <Route path='/bookfirst' element={<Book />} />
         <Route path='/offer' element={<Offer />} /> */}
+        <Route path='/services' element={<Services />} />
         <Route exact path="/bookonline" element={<BookOnline />} />
       </Routes>
     </>
