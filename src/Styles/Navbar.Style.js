@@ -61,9 +61,10 @@ export const Text = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: black;
+  color: black; 
   font-size: 1.2em;
   font-weight: bold;
+  text-decoration: none;
   border-right:  ${(props) => props.borderRight};
   padding-right: ${(props) => props.paddingRight};
   cursor: pointer;

@@ -1,17 +1,15 @@
 import React from "react";
 import { IoMdLogIn } from "react-icons/io";
-import logotop from '../assets/logodone.png'
+import logotop from "../assets/logodone.png";
 import { NavbarWrapper, Universal, Logo, Text } from "../Styles/Navbar.Style";
-
-
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <NavbarWrapper>
-        <Universal Display="flex" width="20%" justifyContent='center'>
-         <Logo src={logotop}/>
+        <Universal Display="flex" width="20%" justifyContent="center">
+          <Logo src={logotop} />
         </Universal>
         <Universal
           Display="flex"
@@ -25,10 +23,17 @@ const Navbar = () => {
           margin="1%"
         >
           <Text paddingRight="2%" borderRight="1px solid black">
-            HOME
+            <Link style={{ textDecoration: "none", color: "black" }} to="/">
+              Home
+            </Link>
           </Text>
           <Text paddingRight="2%" borderRight="1px solid black">
-            Book Online
+            <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="bookonline"
+            >
+              Book Online
+            </Link>
           </Text>
           <Text paddingRight="2%" borderRight="1px solid black">
             Services
@@ -36,9 +41,14 @@ const Navbar = () => {
           <Text paddingRight="2%" borderRight="1px solid black">
             Recently Certified
           </Text>
-          <Text >FAQ</Text>
+          <Text>FAQ</Text>
         </Universal>
-        <Universal Display="flex" backgroundColor="" width="20%" justifyContent='center'>
+        <Universal
+          Display="flex"
+          backgroundColor=""
+          width="20%"
+          justifyContent="center"
+        >
           <Text>
             <IoMdLogIn size="30px" />
             Log in
