@@ -44,7 +44,12 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text paddingRight="2%" borderRight="1px solid black">
-            Recently Certified
+          <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="/certified"
+            >
+              Recently Certified
+            </Link>
           </Text>
           <Text>FAQ</Text>
         </Universal>

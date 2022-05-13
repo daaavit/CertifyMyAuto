@@ -29,7 +29,7 @@ const Services = () => {
             Registry, Coding and Software Updates Car Diagnostic Tests Help You
             Detect Errors Before They Become Catastrophic, Saving You Money In
             The Long Run. Furthermore, Catching Errors Before They Become More
-            Serious Could Potentially Save Your Life Or The Lives Of Others.{" "}
+            Serious Could Potentially Save Your Life Or The Lives Of Others.
           </TextArea>
           <PicArea>
             <img src={DiagPic} height="100%" width="40%" />
