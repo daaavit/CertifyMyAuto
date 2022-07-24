@@ -181,7 +181,7 @@ export const IconWithText = styled.div`
     }
 
     @media(max-width: 750px) {
-        width: 10%;
+        width: 8%;
  
      }
 `
