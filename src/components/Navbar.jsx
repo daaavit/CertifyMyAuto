@@ -13,21 +13,21 @@ const Navbar = () => {
         </Universal>
         <Universal
           Display="flex"
-          height="30%"
+          height="100%"
           justifyContent="space-between"
-          backgroundColor="#e8e6e6"
-          width="70%"
+          backgroundColor="#E6E7ED"
+          width="100%"
           alignItems="center"
           borderRadious="30px"
           padding="1%"
           margin="1%"
         >
-          <Text paddingRight="2%" borderRight="1px solid black">
+          <Text  >
             <Link style={{ textDecoration: "none", color: "black" }} to="/">
               Home
             </Link>
           </Text>
-          <Text paddingRight="2%" borderRight="1px solid black">
+          <Text>
             <Link
               style={{ textDecoration: "none", color: "black" }}
               to="/bookonline"
@@ -35,7 +35,7 @@ const Navbar = () => {
               Book Online
             </Link>
           </Text>
-          <Text paddingRight="2%" borderRight="1px solid black">
+          <Text>
           <Link
               style={{ textDecoration: "none", color: "black" }}
               to="/Services"
@@ -43,12 +43,12 @@ const Navbar = () => {
               Services
             </Link>
           </Text>
-          <Text paddingRight="2%" borderRight="1px solid black">
+          <Text>
           <Link
               style={{ textDecoration: "none", color: "black" }}
               to="/certified"
             >
-              Recently Certified
+              Certified
             </Link>
           </Text>
           <Text>FAQ</Text>

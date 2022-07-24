@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const NavbarWrapper = styled.div`
   display: flex;
   height: 10vh;
-  width: 70vw;
-  background-color: white;
+  width: 100vw;
+  max-width: 980px;
+  background-color: #E6E7ED;
   align-items: center;
   justify-content: center;
   margin: 3%;
@@ -16,8 +17,8 @@ export const NavbarWrapper = styled.div`
     font-size: 10px;
     display: flex;
     height: auto;
-    width: 95vw;
-    background-color: white;
+    width: 100vw;
+    background-color: #E6E7ED;
     align-items: center;
     justify-content: center;
     margin: 3%;
@@ -63,17 +64,30 @@ export const Text = styled.div`
   justify-content: space-evenly;
   align-items: center;
   color: black; 
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   border-right:  ${(props) => props.borderRight};
   padding-right: ${(props) => props.paddingRight};
   cursor: pointer;
+  height: 50px;
+  width: 120px;
+  // border: 1px solid lightgreen;
+
+  border-radius: 20px;
+  box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
 
  :hover {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
 
  }
+
+ @media (max-width: 750px) {
+  display: flex;
+  margin: 1%;
+
+}
 
 `;
 
@@ -81,6 +95,8 @@ export const Text = styled.div`
 export const Logo = styled.img`
     display: flex;
     cursor: pointer;
+    border-radius: 100px;
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
 
 
 `;
