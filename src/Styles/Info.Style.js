@@ -18,7 +18,7 @@ export const InfoWrapper = styled.div`
     flex-direction: column;
     align-content: center;
     align-items: center;
-    height: 70vh;
+    height: 55vh;
     width: 98vw;
     }
 
@@ -143,10 +143,7 @@ export const Button = styled.button`
         height: 80%;
         font-size: 1.2em;
 
-        :hover {
-            background: black;
-            font-size: 1.5em;
-        }
+    
 
     }
 
@@ -182,6 +179,11 @@ export const IconWithText = styled.div`
             transform: scale(1);
         }
     }
+
+    @media(max-width: 750px) {
+        width: 10%;
+ 
+     }
 `
 
 export const TextForIcons = styled.div`
@@ -191,6 +193,11 @@ export const TextForIcons = styled.div`
 
     :hover{
         
+
+    }
+
+    @media(max-width: 750px) {
+       font-size: 0.9em;
 
     }
 
