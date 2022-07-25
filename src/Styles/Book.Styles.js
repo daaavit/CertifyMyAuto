@@ -4,8 +4,9 @@ export const MainWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 98vw;
+    height: 150vh;
+    width: 100vw;
+    background: #E6E7ED;
   
 
 
@@ -18,11 +19,14 @@ export const BookingWrapper = styled.div`
     justify-content: center;
     height: 90%;
     width: 80%;
+ 
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    border-radius: 50px;
 
     @media(max-width: 750px) {
         display: flex;
         height: 95%;
-        width: 100%;
+        width: 95%;
     }
 
 
@@ -49,9 +53,12 @@ export const BookArea = styled.div`
     align-items: center;
     height: 70%;
     width: 80%;
+    
+
 
     @media(max-width: 750px) {
         display: flex;
+        flex-direction: column;
         width: 100%;
         font-size: 0.9em;
     }
@@ -79,15 +86,22 @@ export const BookingCard = styled.div`
     align-items: center;
     height: 90%;
     width: 30%;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+    border-radius: 20px;
 
   :hover{
-      border: 2px solid black;
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    border-radius: 20px;
   }
 
   @media(max-width: 750px) {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    width: 90%;
+    height: 25%;
     font-size: 0.9em;
+    margin-top: 5%;
 }
 
   
@@ -135,7 +149,7 @@ export const PicArea = styled.div`
     @media(max-width: 750px) {
         display: flex;
         height: 20%;
-        width: 95%;
+        width: 30%;
     
     }
 
@@ -149,6 +163,11 @@ export const BookingTitle = styled.div`
     height: 10%;
     width: 90%;
     border-bottom: 1px solid lightgray;
+
+    @media(max-width: 750px){
+        display: flex;
+        font-size: 1em
+    }
 `   
 
 export const ButtonArea = styled.div`
@@ -157,6 +176,7 @@ export const ButtonArea = styled.div`
     align-items: center;
     height: 20%;
     width: 90%;
+
 
 `
 
@@ -168,27 +188,28 @@ export const Button = styled.button`
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    color: white;
+    color: black;
     height: 50%;
     width: 70%;
-    background: red;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
 
     :hover {
         font-size: 1.8em;
         font-weight: bold;
-        height: 60%;
-        width: 80%;
-        background: #31C8CF;
+        height: 50%;
         cursor: pointer;
-    
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+        font-size: 1.3em;
+        border: none;
 
     }
 
     @media(max-width: 750px){
         display: flex;
         font-size: 1.3em
-        height: 60%;
-        width: 100%;
+        height: 50%;
+        width: 50%;
 
     }
 
@@ -209,7 +230,9 @@ export const Pricing = styled.div`
 
     @media(max-width: 750px){
         display: flex;
-        font-size: 1.3em
+        font-size: 1em;
+        height: 10%;
+
 
     }
 

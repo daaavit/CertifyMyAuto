@@ -4,7 +4,7 @@ export const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: auto;
-    background-color: #ffffff;
+    background-color: #E6E7ED;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -53,9 +53,9 @@ export const UniDivWrapper = styled.div`
     height: 20%;
     width: 80%;
     background: ${(props) => props.background};
-
     @media(max-width: 750px) {
         display: flex;
+        
     }
 
 
@@ -63,7 +63,8 @@ export const UniDivWrapper = styled.div`
 
 export const NumbersWithText = styled.div`
     display: flex;
-    border: 4px solid black;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
     border-radius: 100px;
     height: 80%;
     width: 50%;
@@ -76,6 +77,7 @@ export const NumbersWithText = styled.div`
         flex-direction: column;
         align-items: center;
         border: none;
+        box-shadow: none;
     }
     
 
@@ -85,8 +87,8 @@ export const ArrowBox = styled.div`
     justify-content: center;
     align-items: center;
     height: 80%;
-    width: 50%;
-    background: white;
+    width: 30%;
+    
 
 `
 
@@ -110,6 +112,8 @@ export const TextArea = styled.div`
 export const Numbers = styled.div`
     display: flex;
     justify-content: center;
+   
+    border-radius: 15px;
     align-items: centre;
     font-size: 7em;
     font-weight: bold;
@@ -119,6 +123,8 @@ export const Numbers = styled.div`
     @media(max-width: 750px) {
         display: flex;
         font-size: 3em;
+        box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+        border: 0.5px #d1d9e6 solid;
     }
 
 
@@ -144,17 +150,20 @@ export const Button = styled.button`
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    color: white;
+    color: black;
     height: 80%;
     width: 40%;
-    background: red;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
 
     :hover {
         font-size: 2em;
         height: 90%;
         width: 50%;
-        background: black;
         cursor: pointer;
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+        border: no
+
 
         @media(max-width: 750px) {
             display: flex;

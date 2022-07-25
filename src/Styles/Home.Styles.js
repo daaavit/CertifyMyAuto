@@ -5,7 +5,7 @@ export const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #E6E7ED;
+    background-color: #E6E7EE;
     align-content: center;
     // justify-content: space-evenly;
     align-items: center;

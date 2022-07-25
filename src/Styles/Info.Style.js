@@ -50,8 +50,9 @@ export const TextWithPicWrapper = styled.div`
     height: 70%; 
     width: 70%;
     border-radius: 20px;
-    box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
-
+    // box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
 
     @media(max-width: 750px) {
     display: flex;
@@ -126,7 +127,9 @@ export const Button = styled.button`
     font-size: 1.2em;
     border: none;
     color: black;
-    box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
+    // box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
     height: 50%;
     width: 15%;
     border-radius:  50px;
@@ -136,6 +139,7 @@ export const Button = styled.button`
     :hover {
         box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
         font-size: 1.3em;
+        border: none;
     }
     @media(max-width: 750px) {
         display: flex;
@@ -167,7 +171,8 @@ export const IconWithText = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
     animation: IconWithText 2s ease 1s 1 normal forwards;
     
     @keyframes IconWithText {

@@ -4,19 +4,20 @@ export const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #E6E7ED;
     align-content: center;
     justify-content: center;
     align-items: center;
 
     @media(max-width: 750px){ 
-        width: 98%;
 
 
     }
 
 
     `
+
+    
 
 export const InfoWrapper = styled.div`
     display: flex;
@@ -26,9 +27,12 @@ export const InfoWrapper = styled.div`
     // background: red;
     height: 90vh;
     width: 90vw;
-
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+    border-radius: 20px;
+  
     @media(max-width: 750px){ 
-        width: 98%;
+        width: 95%;
 
 
     }
@@ -74,6 +78,8 @@ export const PicArea = styled.div`
     height: 80%;
     width: 30%;
     // background: yellow;
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    border-radius: 20px;  
     
     @media(max-width: 750px){
         display: flex;
@@ -121,9 +127,11 @@ export const Button = styled.button`
     justify-content: center;
     font-weight: bold;
     font-size: 1.5em;
-    border: none;
-    color: white;
-    background: red;
+    color: black;
+    
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+
     height: 80%;
     width: 15%;
     border-radius:  50px;
@@ -131,8 +139,9 @@ export const Button = styled.button`
 
       :hover {
         width: 18%;
-        background: black;
-        font-size: 1.8em;
+         box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+        font-size: 1.6em;
+        border: none;
     }
 
     @media(max-width:750px){
@@ -143,7 +152,6 @@ export const Button = styled.button`
 
         :hover {
             width: 60%;
-            background: black;
             font-size: 1.4em;
     }
 
@@ -183,7 +191,7 @@ export const TextForIcons = styled.div`
         display: flex;
         justify-content: center;
         width: 100%;
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
 `

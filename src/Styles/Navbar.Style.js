@@ -73,14 +73,14 @@ export const Text = styled.div`
   height: 50px;
   width: 120px;
   // border: 1px solid lightgreen;
-
+  border: 0.5px #d1d9e6 solid;
   border-radius: 20px;
-  box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
-
+  // box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
  :hover {
   font-size: 1.2em;
+  border: none;
   box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
-
  }
 
  @media (max-width: 750px) {
