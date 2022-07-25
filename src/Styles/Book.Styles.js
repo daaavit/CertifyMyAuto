@@ -4,10 +4,14 @@ export const MainWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     background: #E6E7ED;
   
+    @media(max-width: 750px) {
+        height: 150vh;
+    }
+
 
 
 `
