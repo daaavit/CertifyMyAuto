@@ -156,6 +156,8 @@ export const Button = styled.button`
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border: 0.5px #d1d9e6 solid;
 
+    background: #E6E7ED;
+
     :hover {
         font-size: 2em;
         height: 90%;

@@ -127,6 +127,7 @@ export const Button = styled.button`
     font-size: 1.2em;
     border: none;
     color: black;
+    background: #E6E7ED;
     // box-shadow:  -5px -5px 10px #FFFFFF,   5px 5px 10px  #9C9C9C !important;
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border: 0.5px #d1d9e6 solid;

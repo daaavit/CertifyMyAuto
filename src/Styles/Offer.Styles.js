@@ -5,7 +5,8 @@ export const MainWrapper = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 98vw;
+    width: 100vw;
+    background: #E6E7ED;
 
 `
 
@@ -28,11 +29,13 @@ export const IconWithTextWrapper = styled.div`
 export const IconsArea = styled.div`
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid lightgray;
     justify-content: space-evenly;
     align-items: center;
     height: 80%;
     width: 90%;
+
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    border-radius: 50px;
 
  
 
@@ -78,7 +81,11 @@ export const IconArea = styled.div`
     display: flex;
     justify-content: center;
     height: 70%;
-    width: 90%;
+    width: 50%;
+
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+    border-radius: 30px;
 
     @media(max-width: 750px){
         display: flex;

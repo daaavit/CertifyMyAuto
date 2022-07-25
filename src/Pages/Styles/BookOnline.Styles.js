@@ -4,9 +4,9 @@ export const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #E6E7ED;
     align-content: center;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
 
     @media (max-width: 750px) {
@@ -61,6 +61,17 @@ export const OfferWithPicSec = styled.div`
     height: 70%;
     width: 90%;
 
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    border-radius: 20px;
+    
+
+    @media(max-width: 750px){
+        display: flex;
+        height: 75%;
+        width: 95%;
+        
+
+    }
 
 `
 
@@ -115,10 +126,15 @@ export const CardsWrapper = styled.div`
       align-items: center;
       height: 30%;
       width: 95%;
-      border: 1px solid lightgray;
+
+      box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+      border: 0.5px #d1d9e6 solid;
+      border-radius: 20px;
 
       :hover {
-        border: 2px solid #31C8CF;
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+        border-radius: 20px;
+        border: none;
     
         
     }
@@ -128,10 +144,8 @@ export const CardsWrapper = styled.div`
 
 export const PicsForCards = styled.div`
     display: flex;
-    height: 100%;
-    width: 30%;
-    background: green;
-
+    height: 70%;
+    width: 20%;
 
 `
 
@@ -145,6 +159,7 @@ export const TextForCards = styled.div`
       height: 30%;
       width: 50%;
       border-bottom: 1px solid lightgray;
+      
       @media(max-width: 750px){
         display: flex;
         width: 95%;
@@ -181,12 +196,19 @@ export const Button = styled.button`
     align-items: center;
     font-size: 1.3em;
     font-weight: bold;
-    border: none;
     border-radius: 50px;
-    color: white;
+    color: black;
     height: 30%;
     width: 30%;
-    background: red;
+    background: #E6E7ED;
+
+
+ box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+ border: 0.5px #d1d9e6 solid;
+ border-radius: 50px;
+
+
+
 
     animation: Button 3s ease 0s 1 normal forwards;
 
@@ -226,9 +248,9 @@ export const Button = styled.button`
     :hover {
         font-size: 1em;
         font-weight: bold;
-        height: 40%;
-        width: 40%;
-        background: #31C8CF;
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+        border-radius: 50px;
+        border: none;
         cursor: pointer;
     }
     @media(max-width: 750px){
