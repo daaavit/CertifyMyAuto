@@ -11,6 +11,7 @@ export const MainWrapper = styled.div`
 
     @media (max-width: 750px) {
         display: flex;
+        height: auto;
         flex-direction: column;
         justify-content: space-evenly;
         align-content: center;
