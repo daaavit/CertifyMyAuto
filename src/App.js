@@ -8,6 +8,7 @@ import BookOnline from './Pages/BookOnline';
 import Services from './Pages/Services';
 import { Routes, Route } from "react-router-dom";
 import Certified from './Pages/Certified';
+import Faq from './Pages/Faq';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/certified' element={<Certified />} />
         <Route path='/services' element={<Services />} />
         <Route exact path="/bookonline" element={<BookOnline />} />
+        <Route exact path="/Faq" element={<Faq />} />
       </Routes>
     </>
   );

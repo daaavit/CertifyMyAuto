@@ -9,7 +9,9 @@ const Navbar = () => {
     <>
       <NavbarWrapper>
         <Universal Display="flex" width="20%" justifyContent="center">
-          <Logo src={logotop} />
+          <Link style={{ textDecoration: "none", color: "black" }} to="/">
+            <Logo src={logotop} />
+          </Link>
         </Universal>
         <Universal
           Display="flex"
@@ -22,7 +24,7 @@ const Navbar = () => {
           padding="1%"
           margin="1%"
         >
-          <Text  >
+          <Text>
             <Link style={{ textDecoration: "none", color: "black" }} to="/">
               Home
             </Link>
@@ -36,7 +38,7 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text>
-          <Link
+            <Link
               style={{ textDecoration: "none", color: "black" }}
               to="/Services"
             >
@@ -44,14 +46,19 @@ const Navbar = () => {
             </Link>
           </Text>
           <Text>
-          <Link
+            <Link
               style={{ textDecoration: "none", color: "black" }}
               to="/certified"
             >
               Certified
             </Link>
           </Text>
-          <Text>FAQ</Text>
+          <Text>
+            {" "}
+            <Link style={{ textDecoration: "none", color: "black" }} to="/Faq">
+              FAQ
+            </Link>
+          </Text>
         </Universal>
         <Universal
           Display="flex"
