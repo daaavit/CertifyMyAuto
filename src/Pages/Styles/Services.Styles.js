@@ -6,8 +6,11 @@ export const MainWrapper = styled.div`
     height: 100vh;
     background-color: #E6E7ED;
     align-content: center;
-    justify-content: center;
+    // justify-content: space-evenly;
     align-items: center;
+
+
+    
 
     @media (max-width: 750px) {
         display: flex;
@@ -24,13 +27,21 @@ export const PicWithTextWrapper = styled.div`
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      height: 80%;
+      height: 70%;
       width: 90%;
+    //   max-width: 980px;
+    //   max-height: 750px;
+
+      margin-top: 3%;
+
+      box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+      border-radius: 50px;
+      border: none;
 
       @media (max-width: 750px) {
         display: flex;
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 90%;
         
       }
 
@@ -47,7 +58,7 @@ export const Heading = styled.div`
       
       @media(max-width: 750px) {
           display: flex;
-          font-size: 2em;
+          font-size: 1.2em;
       }
 
 `
@@ -60,9 +71,11 @@ export const TextArea = styled.div`
     height: 20%;
     width: 90%;
 
+    
+
     @media(max-width: 750px) {
         display: flex;
-        font-size: 0.8em;
+        font-size: 0.7em;
         border-bottom: none;
     }
 
@@ -72,8 +85,15 @@ export const PicArea = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
+
+    box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    border-radius: 50px;
+    border: none;
+
+    margin-top: 1%;
+   
 
     animation: PicArea 5s ease 0s infinite normal forwards;
 
@@ -109,6 +129,10 @@ export const PicArea = styled.div`
         display: flex;
         height: 30%;
         width: 100%;
+        box-shadow: none !important;
+
+
+        
     }
 
 `
@@ -136,6 +160,8 @@ export const ButtonArea = styled.div`
     height: 10%;
     width: 90%;
 
+
+
 `
 
 export const Button = styled.button`
@@ -144,16 +170,23 @@ export const Button = styled.button`
     justify-content: center;
     font-weight: bold;
     font-size: 1.5em;
-    border: none;
-    color: white;
-    background: red;
+    color: black;
     height: 80%;
     width: 15%;
-    border-radius:  50px;
     cursor: pointer;
+    
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+    border-radius: 50px;
+
+
 
     :hover {
-        background: black;
+        
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+        border-radius: 50px;
+        border: none;
+       
         font-size: 2em;
     }
     @media(max-width: 750px) {
@@ -163,7 +196,6 @@ export const Button = styled.button`
         font-size: 1.2em;
 
         :hover {
-            background: black;
             font-size: 1.5em;
         }
 
