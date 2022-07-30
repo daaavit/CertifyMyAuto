@@ -97,6 +97,6 @@ export const Logo = styled.img`
     cursor: pointer;
     border-radius: 100px;
     box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
-
+    border: 0.5px #d1d9e6 solid;
 
 `;

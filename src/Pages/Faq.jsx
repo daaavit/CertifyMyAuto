@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Navbar from "../components/Navbar";
 import {
   FaqWrapper,
@@ -8,10 +8,34 @@ import {
   AskedQuestionsBox,
   ActualQuestions,
   IconForQuestion,
+  AnswerText
 } from "./Styles/Faq.Styles";
+import { MdOutlineClose } from 'react-icons/md'
 import { BsPlusLg } from "react-icons/bs";
 
 const Faq = () => {
+  
+  
+  const [ answer , setAnswer] = useState('')
+
+  const answerText  = () => {
+    setAnswer(<AnswerText>Yes anytime free of charge</AnswerText>)
+  }
+
+  const [questIndex, setQuestIndex] = useState(0)
+
+  const open = () => {
+    setQuestIndex((prevIndex) => prevIndex + 1)
+  }
+
+  const close = () => {
+    setQuestIndex((prevIndex) => prevIndex - 1)
+  }
+
+  
+
+  
+
   return (
     <FaqWrapper>
       <Navbar />
@@ -20,10 +44,11 @@ const Faq = () => {
         <QuestionWrapper>
           <AskedQuestionsBox>
             <ActualQuestions>Can I speak to inspector?</ActualQuestions>
-            <IconForQuestion>
-              <BsPlusLg size={30} />
+            <IconForQuestion onClick={answerText}>
+              {questIndex === 0 ? (<BsPlusLg size={30} onClick={open}/> ) : <MdOutlineClose size={30} onClick={close}/> }
             </IconForQuestion>
           </AskedQuestionsBox>
+          {questIndex === 1 ? answer : null}
           <AskedQuestionsBox>
             <ActualQuestions>What is yor cancellation policy</ActualQuestions>
             <IconForQuestion>

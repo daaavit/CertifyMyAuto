@@ -103,5 +103,18 @@ export const QuestionWrapper = styled.div`
 
 
 
+`
 
+
+export const AnswerText = styled.div`
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 95%;
+      font-size: 1.1em;
+      color: gray;
+
+     
+    height: 15vh;
+    max-height: 100px;
 `
