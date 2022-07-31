@@ -72,6 +72,7 @@ export const IconForQuestion = styled.div`
     max-height: 100px;
     width: 50%;
     margin-right: 3%;
+    cursor: pointer;
 `
 
 export const ActualQuestions = styled.div`

@@ -68,7 +68,9 @@ const Navbar = () => {
         >
           <Text>
             <IoMdLogIn size="30px" />
-            Log in
+            <Link style={{ textDecoration: "none", color: "black" }} to="/SignIn">
+              Sign In
+            </Link>
           </Text>
         </Universal>
       </NavbarWrapper>
