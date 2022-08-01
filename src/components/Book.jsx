@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import peace from "../assets/peace.svg";
 import save from "../assets/save.svg";
 import shield from "../assets/shield.svg";
@@ -61,7 +62,12 @@ const Book = () => {
             <BookingTitle>Pre-Purchase Inspection</BookingTitle>
             <Pricing>2 hr - $250</Pricing>
             <ButtonArea>
-              <Button>Book Now ></Button>
+              <Button><Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="BookOnline"
+            >
+              Book Now >
+            </Link></Button>
             </ButtonArea>
           </BookingCard>
           <BookingCard>
@@ -71,7 +77,12 @@ const Book = () => {
             <BookingTitle>Pre-Sale Inspection</BookingTitle>
             <Pricing>2 hr - $250</Pricing>
             <ButtonArea>
-              <Button>Book Now ></Button>
+              <Button><Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="BookOnline"
+            >
+              Book Now >
+            </Link></Button>
             </ButtonArea>
           </BookingCard>
           <BookingCard>
@@ -81,7 +92,12 @@ const Book = () => {
             <BookingTitle>Diagnostic Services</BookingTitle>
             <Pricing>2 hr - $55</Pricing>
             <ButtonArea>
-              <Button>Book Now ></Button>
+              <Button><Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="BookOnline"
+            >
+              Book Now >
+            </Link></Button>
             </ButtonArea>
           </BookingCard>
         </BookArea>

@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { BsCheck2Circle } from "react-icons/bs";
 import {
-    MainWrapper,
+  MainWrapper,
   InfoWrapper,
   Heading,
   TextWithPicWrapper,
@@ -12,7 +13,7 @@ import {
   UniDiv,
   IconWithText,
   TextForIcons,
-  RedSpan
+  RedSpan,
 } from "../Styles/Info.Style";
 import DiagPic from "../assets/diagnostic.png";
 const Info = () => {
@@ -21,7 +22,7 @@ const Info = () => {
       <Heading>The Most Trustworthy Pre-Purchase Inspection</Heading>
       <TextWithPicWrapper>
         <PicArea>
-          <img src={DiagPic} width='100%' />
+          <img src={DiagPic} width="100%" />
         </PicArea>
         <TextArea>
           <UniDiv height="15%" width="90%">
@@ -52,12 +53,18 @@ const Info = () => {
             <IconWithText>
               <BsCheck2Circle size={30} />
             </IconWithText>
-            <TextForIcons>Fix price<RedSpan>NO HIDDEN FEES</RedSpan></TextForIcons>
+            <TextForIcons>
+              Fix price<RedSpan>NO HIDDEN FEES</RedSpan>
+            </TextForIcons>
           </UniDiv>
         </TextArea>
       </TextWithPicWrapper>
       <ButtonArea>
-          <Button>Let's Go </Button>
+        <Button>
+          <Link style={{ textDecoration: "none", color: "black" }} to="BookOnline">
+            Let's Go
+          </Link>
+        </Button>
       </ButtonArea>
     </InfoWrapper>
   );

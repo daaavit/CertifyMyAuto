@@ -86,7 +86,7 @@ const HowItWorks = () => {
             </TextArea>
           </NumbersWithText>
           <ButtonArea>
-              <Button>Call Now ></Button>
+              <Button ><a href="tel:+1-929-321-9123" style={{ textDecoration: "none", color: "black"}}>Call Now ></a></Button>
           </ButtonArea>
         </UniDivWrapper>
       </Section>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import DiagPic from "../assets/ServicesDiagPic.png";
 import PreSalePic from "../assets/PreSaleInspection.png";
@@ -38,7 +39,14 @@ const Services = () => {
             Only Available At Our Brooklyn Mobile Location
           </SecondSmallTextArea>
           <ButtonArea>
-            <Button>Book</Button>
+            <Button>
+              <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/BookOnline"
+              >
+                Book
+              </Link>
+            </Button>
           </ButtonArea>
         </PicWithTextWrapper>
       </MainWrapper>
@@ -63,7 +71,14 @@ const Services = () => {
             Only Available Within 100 Mile Radius From Brooklyn
           </SecondSmallTextArea>
           <ButtonArea>
-            <Button>Book</Button>
+            <Button>
+              <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/BookOnline"
+              >
+                Book
+              </Link>
+            </Button>
           </ButtonArea>
         </PicWithTextWrapper>
       </MainWrapper>
@@ -83,7 +98,14 @@ const Services = () => {
             Only Available Within 100 Mile Radius From Brooklyn
           </SecondSmallTextArea>
           <ButtonArea>
-            <Button>Book</Button>
+            <Button>
+              <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/BookOnline"
+              >
+                Book
+              </Link>
+            </Button>
           </ButtonArea>
         </PicWithTextWrapper>
       </MainWrapper>

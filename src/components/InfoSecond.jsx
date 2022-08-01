@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import {
   MainWrapper,
   InfoWrapper,
@@ -21,7 +22,7 @@ const InfoSecond = () => {
       <InfoWrapper>
         <Heading>
           <Typewriter
-            onInit={(typewriter, ) => {
+            onInit={(typewriter) => {
               typewriter
                 .typeString("The Most Hated Company By Dishonest Sellers")
                 .pauseFor(1000)
@@ -31,7 +32,7 @@ const InfoSecond = () => {
         </Heading>
         <TextWithPicWrapper>
           <PicArea>
-            <img src={DiagPic} width='100%' />
+            <img src={DiagPic} width="100%" />
           </PicArea>
           <TextArea>
             <UniDiv height="15%" width="90%">
@@ -67,7 +68,14 @@ const InfoSecond = () => {
           </TextArea>
         </TextWithPicWrapper>
         <ButtonArea>
-          <Button>Book Now </Button>
+          <Button>
+            <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="BookOnline"
+            >
+              Book Now
+            </Link>
+          </Button>
         </ButtonArea>
       </InfoWrapper>
     </MainWrapper>
@@ -75,6 +83,3 @@ const InfoSecond = () => {
 };
 
 export default InfoSecond;
-
-
-
