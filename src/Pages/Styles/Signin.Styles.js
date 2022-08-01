@@ -57,6 +57,7 @@ export const InputArea = styled.div`
     height: 30%;
     width: 80%;
     margin-top: 3%;
+
     
 
 
@@ -68,6 +69,7 @@ export const InputBox = styled.div`
     width: 90%;
     border: 0.5px #d1d9e6 solid;
     border-radius: 10px;
+
 
 `
 
@@ -90,6 +92,10 @@ export const UniInputBox = styled.input`
     border: none;
     box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
     background: #E6E7ED;
+    
+    -webkit-appearance: none;
+   
+
 `
 
 export const PassOptions = styled.div`
