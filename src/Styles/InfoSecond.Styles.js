@@ -4,6 +4,7 @@ export const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
     background-color: #E6E7ED;
     align-content: center;
     justify-content: center;
@@ -25,8 +26,8 @@ export const InfoWrapper = styled.div`
     align-content: center;
     align-items: center;
     // background: red;
-    height: 90vh;
-    width: 90vw;
+    height: 80%;
+    width: 80%;
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border: 0.5px #d1d9e6 solid;
     border-radius: 20px;
@@ -126,7 +127,7 @@ export const Button = styled.button`
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: black;
     
     background: #E6E7ED;

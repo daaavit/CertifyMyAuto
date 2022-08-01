@@ -8,8 +8,8 @@ export const InfoWrapper = styled.div`
     align-content: center;
     align-items: center;
     height: 100vh;
-    width: 70vw;
-    max-width: 980px;
+    width: 80vw;
+    max-width: 1200px;
     max-height: 850px;
     margin-top: 3%;
 
@@ -168,6 +168,8 @@ export const UniDiv = styled.div`
 export const IconWithText = styled.div`
     display: flex;
     height: 100%;
+    max-height: 40px;
+    max-width: 40px;
     width: 15%;
     align-items: center;
     justify-content: center;

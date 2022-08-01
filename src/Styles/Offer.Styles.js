@@ -14,7 +14,6 @@ export const IconWithTextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     align-items: center;
     height: 90%;
     width: 90%;
@@ -33,7 +32,6 @@ export const IconsArea = styled.div`
     align-items: center;
     height: 80%;
     width: 90%;
-
     box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
     border-radius: 50px;
 
