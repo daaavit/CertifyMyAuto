@@ -20,6 +20,7 @@ export const Section = styled.div`
     flex-direction: column;
     height: 100%;
     width: 80vw;
+    max-width: 1200px;
     // background: lightBlue;
     align-items: center;
     justify-content: space-evenly;

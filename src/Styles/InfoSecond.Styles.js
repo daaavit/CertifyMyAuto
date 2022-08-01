@@ -28,6 +28,8 @@ export const InfoWrapper = styled.div`
     // background: red;
     height: 80%;
     width: 80%;
+    max-width: 1200px;
+    max-height: 850px;
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border: 0.5px #d1d9e6 solid;
     border-radius: 20px;

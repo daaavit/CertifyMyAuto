@@ -17,6 +17,9 @@ export const IconWithTextWrapper = styled.div`
     align-items: center;
     height: 90%;
     width: 90%;
+    
+
+
 
     @media(max-width: 750px){
         display: flex;

@@ -24,6 +24,9 @@ export const BookingWrapper = styled.div`
     justify-content: center;
     height: 90%;
     width: 80%;
+
+    max-width: 1200px;
+    max-height: 850px;
  
     box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
     border-radius: 50px;
