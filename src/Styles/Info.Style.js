@@ -7,10 +7,10 @@ export const InfoWrapper = styled.div`
     flex-direction: column;
     align-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     width: 70vw;
     max-width: 980px;
-    max-height: 550px;
+    max-height: 850px;
     margin-top: 3%;
 
     @media(max-width: 750px) {

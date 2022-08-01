@@ -10,6 +10,7 @@ export const MainWrapper = styled.div`
   
     @media(max-width: 750px) {
         height: 150vh;
+        
     }
 
 
