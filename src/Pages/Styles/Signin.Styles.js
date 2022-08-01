@@ -98,19 +98,106 @@ export const PassOptions = styled.div`
     width: 80%;
     align-items: center;
 
+
 `
 
 
 export const RemeberMe = styled.div`
     display: flex;
+    font-size: 1.2em;
     height: 100%;
     width: 50%;
     align-items: center;
     
-    // background red;
- 
+    cursor: pointer;
+
 }
 
+
+`
+
+
+export const ForgotPass = styled.div`
+    display: flex;
+    font-size: 1.2em;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+
+    cursor: pointer;
+
+ 
+}
+`
+
+export const SignInButton = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 10%;
+    width: 80%;
+    margin-top: 3%;
+
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+    border-radius: 20px;
+
+    :hover {
+        border: none;
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    }
+
+`
+
+export const CreateAccountBox = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 23%;
+    width: 80%;
+    margin-top: 3%;
+
+`
+
+export const TextForCreateAcount = styled.div`
+    display: flex;
+    height; 10%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+
+`
+
+export const IconBoxesForAccounts = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
     
+
+`
+
+export const IconsForAccounts = styled.div`
+    display: flex;
+    height: 70%;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border: 0.5px #d1d9e6 solid;
+    border-radius: 5px;
+
+    :hover {
+        border: none;
+        box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
+    }
 
 `
