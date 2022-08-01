@@ -117,6 +117,11 @@ export const RemeberMe = styled.div`
     
     cursor: pointer;
 
+    @media(max-width: 750px) {
+        display: flex;
+        font-size: 1em;
+    }
+
 }
 
 
@@ -132,6 +137,11 @@ export const ForgotPass = styled.div`
     justify-content: flex-end;
 
     cursor: pointer;
+
+    @media(max-width: 750px) {
+        display: flex;
+        font-size: 1em;
+    }
 
  
 }

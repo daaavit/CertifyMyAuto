@@ -122,6 +122,8 @@ export const Numbers = styled.div`
     // background: green;
     @media(max-width: 750px) {
         display: flex;
+        width: 50%;
+        border-radius: 100px;
         font-size: 3em;
         box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
         border: 0.5px #d1d9e6 solid;
