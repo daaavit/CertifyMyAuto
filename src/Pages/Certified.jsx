@@ -7,7 +7,7 @@ const Certified = () => {
     <>
       <MainWrapper>
         <Navbar />
-        <h1>Loading...</h1>
+        <h1>429 Too Many Requests</h1>
       </MainWrapper>
     </>
   );

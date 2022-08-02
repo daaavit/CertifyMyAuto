@@ -11,7 +11,7 @@ export const MainWrapper = styled.div`
     align-items: center;
 
     @media(max-width: 750px){ 
-
+        width: 99vw;
 
     }
 

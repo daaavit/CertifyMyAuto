@@ -9,13 +9,12 @@ export const MainWrapper = styled.div`
     // justify-content: center;
     align-items: center;
 
-    @media (max-width: 750px) {
+    @media(max-width: 750px) {
         display: flex;
         height: auto;
         flex-direction: column;
         justify-content: space-evenly;
         align-content: center;
-        
       }
 `
 
@@ -145,7 +144,14 @@ export const CardsWrapper = styled.div`
 export const PicsForCards = styled.div`
     display: flex;
     height: 70%;
-    width: 20%;
+    width: 20%; 
+
+    @media(max-width: 750px){
+        display: flex;
+        height: 50%;
+
+    }
+
 
 `
 

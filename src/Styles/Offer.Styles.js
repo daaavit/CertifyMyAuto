@@ -8,6 +8,11 @@ export const MainWrapper = styled.div`
     width: 100vw;
     background: #E6E7ED;
 
+    @media(max-width: 750px){
+        display: flex;
+        width: 99vw;
+    }
+
 `
 
 export const IconWithTextWrapper = styled.div`

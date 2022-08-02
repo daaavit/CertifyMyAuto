@@ -14,12 +14,21 @@ import { MdOutlineClose } from 'react-icons/md'
 import { BsPlusLg } from "react-icons/bs";
 
 const Faq = () => {
+
+  const Data = [
+    {
+      answer: 'Yes anytime free of charge',
+    }
+
+  ]
   
   
   const [ answer , setAnswer] = useState('')
 
   const answerText  = () => {
-    setAnswer(<AnswerText>Yes anytime free of charge</AnswerText>)
+    setAnswer(<AnswerText>{Data.map(idx => {
+      return idx.answer
+    })}</AnswerText>)
   }
 
   const [questIndex, setQuestIndex] = useState(0)

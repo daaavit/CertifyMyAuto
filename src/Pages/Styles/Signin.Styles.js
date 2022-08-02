@@ -156,6 +156,7 @@ export const SignInButton = styled.div`
     height: 10%;
     width: 80%;
     margin-top: 3%;
+    cursor: pointer;
 
     box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
     border: 0.5px #d1d9e6 solid;

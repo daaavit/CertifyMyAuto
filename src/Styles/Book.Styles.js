@@ -10,6 +10,7 @@ export const MainWrapper = styled.div`
   
     @media(max-width: 750px) {
         height: 150vh;
+        width: 99vw;
         
     }
 
@@ -157,7 +158,7 @@ export const PicArea = styled.div`
     @media(max-width: 750px) {
         display: flex;
         height: 20%;
-        width: 30%;
+        width: 20%;
     
     }
 
@@ -174,7 +175,8 @@ export const BookingTitle = styled.div`
 
     @media(max-width: 750px){
         display: flex;
-        font-size: 1em
+        font-size: 1em;
+        border: none;
     }
 `   
 
