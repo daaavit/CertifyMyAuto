@@ -10,6 +10,7 @@ export const MainWrapper = styled.div`
     align-items: center;
     @media(max-width: 750px) {
         display: flex;
+        width: 100%;
     }
     
     

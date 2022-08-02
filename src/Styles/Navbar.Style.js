@@ -17,7 +17,7 @@ export const NavbarWrapper = styled.div`
     font-size: 10px;
     display: flex;
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-color: #E6E7ED;
     align-items: center;
     justify-content: center;

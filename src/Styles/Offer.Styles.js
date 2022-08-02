@@ -10,7 +10,7 @@ export const MainWrapper = styled.div`
 
     @media(max-width: 750px){
         display: flex;
-        width: 99vw;
+        width: 100%;
     }
 
 `
