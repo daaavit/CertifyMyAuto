@@ -5,6 +5,8 @@ import { NavbarWrapper, Universal, Logo, Text } from "../Styles/Navbar.Style";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  console.log('Hey Mr.Inspector :) If you have a questions please reach me at daavit@yahoo.com')
+
   return (
     <>
       <NavbarWrapper>
