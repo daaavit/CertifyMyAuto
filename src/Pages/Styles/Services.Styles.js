@@ -93,6 +93,7 @@ export const PicArea = styled.div`
     border: none;
 
     margin-top: 1%;
+    max-height: 380px;
    
 
     animation: PicArea 5s ease 0s infinite normal forwards;

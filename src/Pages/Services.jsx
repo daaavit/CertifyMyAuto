@@ -33,7 +33,7 @@ const Services = () => {
             Serious Could Potentially Save Your Life Or The Lives Of Others.
           </TextArea>
           <PicArea>
-            <img src={DiagPic} height="100%" width="40%" />
+            <img src={DiagPic} height="100%" width="40%"/>
           </PicArea>
           <SecondSmallTextArea>
             Only Available At Our Brooklyn Mobile Location

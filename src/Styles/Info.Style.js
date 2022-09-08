@@ -74,6 +74,9 @@ export const PicArea = styled.div`
     box-shadow: inset -2px -2px 4px #FFFFFF,   inset 2px 2px 7px  #9C9C9C !important;
     border-radius: 20px;   
 
+    max-height: 390px;
+    max-width: 400px;
+
     @media(max-width: 750px) {
     display: flex;
     height: 50%;
