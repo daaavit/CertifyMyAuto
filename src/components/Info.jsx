@@ -22,7 +22,7 @@ const Info = () => {
       <Heading>The Most Trustworthy Pre-Purchase Inspection</Heading>
       <TextWithPicWrapper>
         <PicArea>
-          <img src={DiagPic} width="100%" />
+          <img src={DiagPic} width="100%"  alt='diag pic'/>
         </PicArea>
         <TextArea>
           <UniDiv height="15%" width="90%">
