@@ -52,7 +52,7 @@ const BookOnline = () => {
               <BoxForPrices>
                 <TextForCards>Pre-Purchase</TextForCards>
                 <PricesForCard>2 hr - $250</PricesForCard>
-                <Button>Book Now</Button>
+                <Button  onClick={(e) => window.open('https://calendly.com/certifymyautoo/30min')}>Book Now</Button>
               </BoxForPrices>
             </CardsWrapper>
             <CardsWrapper>
@@ -62,7 +62,7 @@ const BookOnline = () => {
               <BoxForPrices>
                 <TextForCards>Pre-Sale</TextForCards>
                 <PricesForCard>2 hr - $250</PricesForCard>
-                <Button>Book Now</Button>
+                <Button onClick={(e) => window.open('https://calendly.com/certifymyautoo/30min')}>Book Now</Button>
               </BoxForPrices>
             </CardsWrapper>
             <CardsWrapper>
@@ -72,7 +72,7 @@ const BookOnline = () => {
               <BoxForPrices>
                 <TextForCards>Diagnostic Services</TextForCards>
                 <PricesForCard>1 hr - $55</PricesForCard>
-                <Button>Book Now</Button>
+                <Button onClick={(e) => window.open('https://calendly.com/certifymyautoo/30min')}>Book Now</Button>
               </BoxForPrices>
             </CardsWrapper>
           </CardsArea>
