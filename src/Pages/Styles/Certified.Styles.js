@@ -20,3 +20,11 @@ export const MainWrapper = styled.div`
         
       }
 `
+
+export const FormWrapper = styled.div`
+      display: flex;
+      height: 80vh;
+      width: 100vw;
+
+
+`

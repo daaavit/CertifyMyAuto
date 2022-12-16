@@ -52,7 +52,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "black" }}
               to="/certified"
             >
-              Certified
+              Auction
             </Link>
           </Text>
           <Text>

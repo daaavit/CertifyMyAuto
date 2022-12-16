@@ -1,5 +1,5 @@
 import React from "react";
-import { MainWrapper } from "./Styles/Certified.Styles";
+import { MainWrapper, FormWrapper } from "./Styles/Certified.Styles";
 import Navbar from "../components/Navbar";
 
 const Certified = () => {
@@ -7,7 +7,14 @@ const Certified = () => {
     <>
       <MainWrapper>
         <Navbar />
-        <h1>429 Too Many Requests</h1>
+        <FormWrapper>
+          <iframe
+            src="https://airtable.com/embed/shrVNQZ3Bc6MsurLh?backgroundColor=blue"
+            width="100%"
+            // height="100%"
+            style={{ background: '#E6E7ED' }}
+          ></iframe>
+        </FormWrapper>
       </MainWrapper>
     </>
   );
